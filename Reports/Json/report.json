@@ -1,0 +1,344 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 810000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "This scenario is to test login functionality.",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-page-scenarios.;this-scenario-is-to-test-login-functionality.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 124000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4317614400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and load facebook Url",
+            "match": {
+              "location": "LoginPageExecution.launch_the_browser_and_load_facebook_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 422305500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Provide valid \"anand@gmail.com\" and \"Test@123\" later hit Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"anand@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Test@123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPageExecution.provide_valid_and_later_hit_Login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142268500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the user and close browser",
+            "match": {
+              "location": "LoginPageExecution.validate_the_user_and_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 101800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "This scenario is to test login functionality.",
+        "description": "",
+        "id": "this-feature-is-to-test-the-login-page-scenarios.;this-scenario-is-to-test-login-functionality.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 77800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2437416200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and load facebook Url",
+            "match": {
+              "location": "LoginPageExecution.launch_the_browser_and_load_facebook_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510377600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Provide valid \"somiah@yahoo.in\" and \"Welcome!2\" later hit Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"somiah@yahoo.in\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Welcome!2\"",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginPageExecution.provide_valid_and_later_hit_Login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160895400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate the user and close browser",
+            "match": {
+              "location": "LoginPageExecution.validate_the_user_and_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the login page scenarios.",
+    "description": "",
+    "id": "this-feature-is-to-test-the-login-page-scenarios.",
+    "keyword": "Feature",
+    "uri": "C:/Users/Dell/eclipse-workspace/CucumberProject/src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2101999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the browser and load the Url",
+            "match": {
+              "location": "SwagPageExecution.launch_the_browser_and_load_the_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 112800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "This scenario is to test Login with Valid Credential.",
+        "description": "",
+        "id": "this-feature-is-to-test-scenarios-of-swagpage.;this-scenario-is-to-test-login-with-valid-credential.",
+        "after": [
+          {
+            "result": {
+              "duration": 107700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 338190700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Provide valid credential and hit Login",
+            "match": {
+              "location": "SwagPageExecution.provide_valid_credential_and_hit_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117871200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate the logged user and close browser",
+            "match": {
+              "location": "SwagPageExecution.validate_the_logged_user_and_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2217701400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch the browser and load the Url",
+            "match": {
+              "location": "SwagPageExecution.launch_the_browser_and_load_the_Url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 96600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "This scenario is to test Login with Invalid Credential.",
+        "description": "",
+        "id": "this-feature-is-to-test-scenarios-of-swagpage.;this-scenario-is-to-test-login-with-invalid-credential.",
+        "after": [
+          {
+            "result": {
+              "duration": 72500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227029300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Provide invalid 878467 and \"Welcome@123\" then hit Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "878467",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Welcome@123\"",
+                  "offset": 27
+                }
+              ],
+              "location": "SwagPageExecution.provide_invalid_and_then_hit_Login(Integer,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109396700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Validate the error msg and close browser",
+            "match": {
+              "location": "SwagPageExecution.validate_the_error_msg_and_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test scenarios of SwagPage.",
+    "description": "",
+    "id": "this-feature-is-to-test-scenarios-of-swagpage.",
+    "keyword": "Feature",
+    "uri": "C:/Users/Dell/eclipse-workspace/CucumberProject/src/test/resources/Features/SwagPage.feature",
+    "tags": []
+  }
+]
